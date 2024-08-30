@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Generator</title>
+</head>
+<body>
+    <input type="text" name="name" id="name" placeholder="Name">
+    <input type="text" name="age" id="age" placeholder="Age">
+    <button onclick="gen()">Generate</button>
+    <p id="info"></p>
+
+<script>
+    function gen(){
+        name= document.getElementById("name").value
+        age= document.getElementById("age").value
+
+        text = `Dear ${name},
+        I am from Pokhar
+        and my age is ${age}`
+        document.getElementById('info').innerHTML = text
+    }
+</script>
+</body>
+
+</html>

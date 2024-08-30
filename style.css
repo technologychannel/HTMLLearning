@@ -27,5 +27,10 @@ table {
     text-align: left;
     padding: 10px;
   }
+.maininfo{
+    background-color: antiquewhite;
+}
 
-  
+#me{
+    border: 1px solid black;
+}
